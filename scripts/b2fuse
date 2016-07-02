@@ -1,3 +1,3 @@
 #!/bin/sh
-python /b2_fuse/b2fuse.py "@"
+python /b2_fuse/b2fuse.py "$@"
 
