@@ -1,0 +1,2 @@
+#!/bin/sh
+python /b2_fuse/b2local.py
