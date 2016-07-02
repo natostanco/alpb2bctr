@@ -1,4 +1,4 @@
-FROM quay.io/natostanco/alppy2ctr
+FROM quay.io/natostanco/alppytctr
 
 RUN apk update \
  && apk add git \
