@@ -6,7 +6,7 @@ RUN apk update \
  && apk del --purge git \
  && rm /var/cache/apk/*
  
-COPY ./scripts/* /usr/local/bin
+COPY ./scripts/* /usr/local/bin/
 
 CMD ["b2fuse"]
  
